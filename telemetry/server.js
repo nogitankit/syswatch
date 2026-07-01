@@ -28,7 +28,7 @@ telemetryProcess.stdout.on('data', (data) => {
     }
   })
   //for testing ----- REMOVE THIS
-  console.log(`[C++] ${jsonString}`);
+  //console.log(`[C++] ${jsonString}`);
 })
 
 telemetryProcess.stderr.on('data', (data) => {
