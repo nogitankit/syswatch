@@ -5,7 +5,7 @@ export default function Footer() {
       style={{ animationDelay: "400ms" }}
     >
       SysWatch Telemetry · Streaming from{" "}
-      <span className="text-text-secondary">localhost:6767</span> · Built with
+      <span className="text-text-secondary">localhost:6767</span>· Built with
       C++ &amp; Next.js :D
     </footer>
   );

@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
+    "build": "g++ -std=c++17 -o syswatchtelemetry main.cpp -lpthread -lstdc++fs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
